@@ -9,6 +9,30 @@ main h1{
 	color: #fff;
 	text-align: center;
 	font-family:"Open Sans Condensed", "Arial", sans-serif;
+	padding: 20px;
+	margin: 0px;
+	border-bottom: 10px solid black;
+}
+main{
+	line-height: 1.5;
+}
+body{
+	line-height: 1.5;
+}
+
+main div{
+	box-sizing: 720px;
+	margin: auto;
+}
+
+main a{
+	color: #851944;
+}
+
+div{
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
 }
 h1, h2{
 	font-size: 40px;
@@ -16,30 +40,36 @@ h1, h2{
 }
 p{
 	text-align: justify;
+	margin: 0px;
 }
 
 blockquote{
 	background-color: #d9e5e3;
+	padding: 16px;
+	border: 10px solid #c2ccca ;
+	width: 250px;
+	margin: 0px;
+	box-sizing:border-box;
 }
 
 aside{
 	background-color: #3C1D3D;
 	color:#F2FFFC;
+	text-align: center;
+}
+aside a{
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+ul{
+	list-style-type:none;
 }
 
 footer{
 	background-color: #000;
 	color: #F2FFFc;
 }
-nav a{
 
-	color: #f2fffc;
-}
-main a{
-	color: #851944;
-}
 
-aside a{
-	color: inherit;
-	font-family: "Open Sans Condensed", sans-serif;
-}
+
