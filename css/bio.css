@@ -1,171 +1,18 @@
-body{
-	font-size:120%;
-	font-family: "Crimson Text", "Times New Roman", serif;
-	background-color:#f2fffc;
-	line-height: 1.5;
+.citacao-bio {
+    background-color: #D9E5E3;
+    border: .5em solid #C2CCCA;
+    padding: 1em;
+    margin: 1em 2em;
+    width: 30ch;
+    box-sizing: border-box;
 }
 
-
-main h1{
-	font-size: 60px;
-	background-color: #851944;
-	color: #fff;
-	text-align: center;
-	font-family:"Open Sans Condensed", "Arial", sans-serif;
-	padding: 20px;
-	margin: 0px;
-	border-bottom: 10px solid black;
-	text-transform: uppercase;
+.petrobras {
+    float: left;
+    margin-left: 0;
 }
 
-main{
-	line-height: 1.5;
-	float: left;
-	width: 85%;
+.fiat {
+    float: right;
+    margin-right: 0;
 }
-
-main div{
-	box-sizing: 720px;
-	margin: auto;
-}
-
-main a{
-	color: #851944;
-}
-
-.container{
-	width: 720px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px 0;
-	padding-bottom: 80px; 
-}
-
-h1{
-	text-transform: uppercase;
-	font-size: 40px;
-	font-family:"Open Sans Condensed", "Arial", sans-serif;
-}
-
-h2{
-	font-size: 40px;
-	font-family:"Open Sans Condensed", "Arial", sans-serif;
-	clear: both;
-
-}
-p{
-	text-align: justify;
-	margin: 30px 0;
-}
-
-blockquote{
-	background-color: #d9e5e3;
-	padding: 16px;
-	border: 10px solid #c2ccca ;
-	width: 250px;
-	margin: 0px;
-	box-sizing:border-box;
-	
-}
-
-.fiat{
-	float: right;
-	margin-left: 40px;
-}
-
-.Petrobras{
-	float: left;
-	margin-right: 40px;
-}
-
-strong{
-	font-weight: 600;
-}
-em{
-	font-style: italic;
-}
-
-aside{
-	background-color: #3C1D3D;
-	color:#F2FFFC;
-	text-align: center;
-	padding: 10px;
-	font-family: "Open Sans Condensed", sans-serif;
-	clear: right;
-	box-sizing: border-box;
-	width: 15%;
-	float: right;
-	border-left: 10px solid black;
-	border-bottom: 10px solid black;
-	position: relative;
-	top: 310px;
-
-
-}
-aside a{
-	color: inherit;
-	font-family: "Open Sans Condensed", sans-serif;
-	text-decoration:none; 
-}
-
-.minha-foto{
-	float: right;
-	box-sizing: border-box;
-	border-left: 10px solid black;
-	border-bottom: 10px solid black;
-	position: absolute;
-	top: 0px;
-	right:0px;
-}
-
-
-.icones-sociais li{
-	display: inline-block;
-}
-
-.icones-sociais a{
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	text-indent: -9999px;
-}
-
-.github{
-	background-image: url(../img/github.png);
-}
-
-.twitter{
-	background-image: url(../img/twitter.png);
-}
-
-.linkedin{
-	background-image: url(../img/linkedin.png);
-}
-
-nav h1{
-	font-size: 30px;
-	margin-bottom: 25px;
-}
-nav a{
-	color: inherit;
-	text-transform: lowercase;
-}
-
-
-ul{
-	list-style-type:none;
-}
-
-
-.footer-site{
-	background-color: #000;
-	color: #F2FFFc;
-	clear: both;
-	position:fixed;
-	bottom: 0px;
-	width: 100%;
-
-}
-
-
-
