@@ -1,3 +1,4 @@
+
 .foto-home {
     height: 200px;
 }
@@ -81,10 +82,22 @@
     display: block;
 }
 
+.blog .inicio-post{
+    position: absolute;
+    color: #000;
+    background-color: #f2fffc;
+    top: 4em;
+    right: 4em;
+    height: 8em;
+    left: 30%;
+    padding: 1.5em;
+}
+
 .blog {
     background-color: #999;
     color: #FFF;
     border-bottom: .5em solid #851944;
+    position: relative;
 }
 
 .blog small {
@@ -92,10 +105,88 @@
     top: -2em;
 }
 
+.blog li{
+    width: 30%;
+}
+
 .blog li a {
     color: #FCF;
     padding: .5em;
     display: block;
+}
+
+.blog .mais-recente{
+    background-color: #f2fffc;
+}
+
+.blog .mais-recente a{
+    color:#f26;
+}
+
+.palavra-home {
+    position: absolute;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color: #D5447E;
+}
+
+.eficiencia{
+    top:20%;
+    left:75%;
+}
+
+.boas-praticas {
+    top: 70%;
+    left: 13%;
+}
+
+.codigo-limpo {
+    top: 45%;
+    left: 10%;
+}
+
+.css3 {
+    top: 50%;
+    left: 30%;
+}
+
+.html5 {
+    top: 40%;
+    left: 80%;
+}
+
+.javascript {
+    top: 5%;
+    left: 60%;
+}
+
+.acessibilidade {
+    top: 30%;
+    left: 18%;
+}
+
+.responsivo {
+    top: 10%;
+    left: 6%;
+}
+
+.otimizacoes {
+    top: 70%;
+    left: 70%;
+}
+
+.agilidade {
+    top: 5%;
+    left: 30%;
+}
+
+.design {
+    top: 35%;
+    left: 65%;
+}
+
+header{
+    position: relative;
 }
 
 footer {
